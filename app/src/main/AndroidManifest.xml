@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.musicstructureapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/appTitle"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NowPlaying"
+            android:label="@string/now_playing"
+            android:parentActivityName=".PlaylistActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NowPlaying" />
+        </activity>
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="@string/playlist"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PlaylistActivity" />
+        </activity>
+        <activity
+            android:name=".MusicShop"
+            android:label="@string/music_shop"
+            android:parentActivityName=".NowPlaying">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MusicShop" />
+        </activity>
+        <activity android:name=".FavoriteMusic"
+            android:label="@string/favorite_songs"
+            android:parentActivityName=".NowPlaying">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FavoriteMusic" />
+        </activity>
+
+    </application>
+
+</manifest>

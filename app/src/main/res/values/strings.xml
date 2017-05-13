@@ -1,0 +1,30 @@
+<resources>
+    <string name="my_playlists">My Playlists</string>
+    <string name="music_for_soul_playlist">Music for soul</string>
+    <string name="music_for_rainy_days_playlist">Music for rainy days</string>
+    <string name="add_playlist">Add Playlist</string>
+    <string name="recent_songs">Recent Played</string>
+    <string name="playlist_image_description">Simple image used for playlists</string>
+    <string name="song_name">Song Name</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="beginning_time">0:00</string>
+    <string name="ending_time">5:56</string>
+    <string name="proceed_to_checkout">Proceed to checkout</string>
+    <string name="content_description">Icons or images used to style the app</string>
+
+    <!--Strings used for labels -->
+    <string name="now_playing">Now Playing</string>
+    <string name="playlist">Playlist</string>
+    <string name="music_shop">Music Shop</string>
+    <string name="appTitle">Music Structure App</string>
+    <string name="favorite_songs">Favorite Songs</string>
+
+    <!--Strings with details of functionality for every activity-->
+    <string name="details_about_main_screen">This is the home activity. It shows the user his playlists with the possibility to add more. \n Every playlist has an ImageView and a TextView with the name. \n If a playlist is tapped the user will be redirected to another activity that shows the content of the selected playlist. \n Recent songs contains a ListView which has all the songs that the user listened to. If an item from recent songs is tapped, the user is redirected to Now Playing Activity</string>
+    <string name="details_about_playlist_screen">This activity contains all the songs of a playlist in a ListView. If an item is clicked, the user will be redirected to Now Playing activity.</string>
+    <string name="details_about_now_playing_screen">This activity contains simple buttons for functionality. If the user presses the plus button, the song will be added to the user\'s favorite playlist. If the user presses the shopping cart button, he will be redirected to the music store. If the user presses the favorite song button, he will be redirected to Favorite Songs Activity.</string>
+    <string name="details_about_music_shop_activity">This activity contains a list of new songs with their prices if the user wants to upgrade his playlist. If the users taps for more than 1 second on a song, that song will be added to cart. The proceed to checkout button takes the user to the final step where he needs to select a payment way in order to receive the purchase.</string>
+    <string name="details_about_favorite_music_activity">This activity contains a list of favorite songs. If the user taps on a song, he will be redirected to now playing activity.</string>
+    <string name="details_about_favorite_songs_screen">This activity contains all the user\'s favorite songs stored in a playlist. If the user taps on one item, he will be redirected to Now Playing Activity</string>
+
+</resources>

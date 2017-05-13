@@ -1,0 +1,121 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Styles used mostly for main activity-->
+    <style name="style_for_views">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/view_layout_height</item>
+        <item name="android:background">@color/whiteText</item>
+        <item name="android:paddingTop">@dimen/view_padding_top</item>
+    </style>
+
+    <style name="main_screen_writing_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="main_screen_images_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:contentDescription">@string/playlist_image_description</item>
+        <item name="android:padding">@dimen/padding_for_images</item>
+    </style>
+
+    <style name="main_screen_textview_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/padding_for_images</item>
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+    <!--=========================================================================================-->
+    <style name="playlist_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="details_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/recycler_view_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/transparentBackground</item>
+        <item name="android:padding">@dimen/layout_margin</item>
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+
+    <!--Style used for recycler views-->
+    <style name="recycler_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/recycler_view_height</item>
+        <item name="android:layout_margin">@dimen/layout_margin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+
+    <!--Style used for now playing activity-->
+    <style name="now_playing_buttons_style">
+        <item name="android:layout_width">@dimen/buttons_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:contentDescription">@string/content_description</item>
+    </style>
+
+    <style name="now_playing_linear_layouts_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/now_playing_linearlayout_margin_top</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="song_duration_style">
+        <item name="android:layout_width">@dimen/recycler_view_height</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+    <!--=========================================================================================-->
+    <style name="scrollview_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/music_structure_app_background</item>
+    </style>
+
+    <!--Button style-->
+    <style name="button_proceed_to_checkout">
+        <item name="android:textColor">@color/whiteText</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/my_button</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin</item>
+    </style>
+
+    <style name="recycler_view_style_shop">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/recycler_view_height</item>
+        <item name="android:layout_margin">@dimen/layout_margin</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textColor">@color/whiteText</item>
+    </style>
+
+    <style name="tabItems" parent="AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

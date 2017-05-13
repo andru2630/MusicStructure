@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollview_style"
+    tools:context="com.example.android.musicstructureapp.MusicShop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/details_text_style"
+            android:text="@string/details_about_music_shop_activity"/>
+
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/music_shop_recycler_view"
+            style="@style/recycler_view_style_shop" />
+
+        <Button
+            android:id="@+id/proceed_to_checkout"
+            android:text="@string/proceed_to_checkout"
+            style="@style/button_proceed_to_checkout" />
+    </LinearLayout>
+</ScrollView>

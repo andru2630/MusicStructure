@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="view_padding_top">4dp</dimen>
+    <dimen name="view_layout_height">1dp</dimen>
+    <dimen name="recycler_view_height">0dp</dimen>
+    <dimen name="layout_margin">8dp</dimen>
+    <dimen name="padding_for_images">4dp</dimen>
+    <dimen name="song_activity_text_size">16sp</dimen>
+    <dimen name="now_playing_song_name_text_size">20sp</dimen>
+    <dimen name="now_playing_artist_name_text_size">15sp</dimen>
+    <dimen name="play_button_height">60dp</dimen>
+    <dimen name="buttons_width">0dp</dimen>
+    <dimen name="now_playing_linearlayout_margin_top">25dp</dimen>
+    <dimen name="now_playing_linearlayout_padding_top">20dp</dimen>
+
+</resources>

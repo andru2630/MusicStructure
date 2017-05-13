@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollview_style"
+    tools:context="com.example.android.musicstructureapp.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/main_screen_writing_style"
+            android:text="@string/my_playlists" />
+
+        <View style="@style/style_for_views" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout style="@style/playlist_style">
+
+                    <ImageView
+                        android:id="@+id/playlist_1"
+                        style="@style/main_screen_images_style"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/playlist_art_1" />
+
+                    <TextView
+                        style="@style/main_screen_textview_style"
+                        android:text="@string/music_for_soul_playlist" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/playlist_style">
+
+                    <ImageView
+                        android:id="@+id/playlist_2"
+                        style="@style/main_screen_images_style"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/playlist_art_2" />
+
+                    <TextView
+                        style="@style/main_screen_textview_style"
+                        android:text="@string/music_for_rainy_days_playlist" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/playlist_style">
+
+                    <ImageView
+                        android:id="@+id/add_playlist"
+                        style="@style/main_screen_images_style"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/add_playlist" />
+
+                    <TextView
+                        style="@style/main_screen_textview_style"
+                        android:text="@string/add_playlist" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <View style="@style/style_for_views" />
+
+        <TextView
+            style="@style/main_screen_writing_style"
+            android:text="@string/recent_songs" />
+
+        <View style="@style/style_for_views" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            style="@style/recycler_view_style" />
+
+        <View style="@style/style_for_views" />
+
+        <TextView
+            style="@style/details_text_style"
+            android:text="@string/details_about_main_screen" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

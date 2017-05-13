@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparentBackground"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicstructureapp.Song">
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/song_name"
+        android:textSize="@dimen/song_activity_text_size"
+        android:textColor="@color/whiteText" />
+
+    <TextView
+        android:id="@+id/artist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/artist_name"
+        android:textColor="@color/whiteText" />
+</LinearLayout>

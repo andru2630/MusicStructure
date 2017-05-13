@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Application theme. -->
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#303030</color>
+    <color name="colorAccent">#263238</color>
+    <color name="transparentBackground">#40e0e0e0</color>
+    <color name="whiteText">#FFFFFF</color>
+
+</resources>
