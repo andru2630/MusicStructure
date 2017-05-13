@@ -35,7 +35,6 @@ class SongAdapter extends RecyclerView.Adapter<SongAdapter.MyViewHolder> {
         holder.artistName.setText(song.artistName);
     }
 
-
     @Override
     public int getItemCount() {
         return songList.size();
