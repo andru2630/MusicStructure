@@ -10,7 +10,6 @@
         android:orientation="vertical"
         android:paddingTop="@dimen/now_playing_linearlayout_padding_top">
 
-
         <ImageView
             android:contentDescription="@string/content_description"
             android:layout_width="wrap_content"

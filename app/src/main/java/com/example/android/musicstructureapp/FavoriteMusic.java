@@ -21,7 +21,6 @@ public class FavoriteMusic extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_favorite_music);
 
-
         recyclerView = (RecyclerView) findViewById(R.id.favorite_playlist_recycler_view);
         recyclerView.setHasFixedSize(true);
 
